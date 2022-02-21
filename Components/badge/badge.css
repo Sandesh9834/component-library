@@ -1,0 +1,94 @@
+.VariantContainer
+{
+      margin-top: 25px;
+      border: 3px solid var(--primary-color);
+      width: 900px;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      align-items: center;  
+      text-align: center; 
+}   
+
+#badge-container p span{
+    background-color: var(--green-color);
+    border-radius: 5px;
+    padding: .1rem;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 1rem 2rem;
+}
+
+.icon i{
+    font-size: 3.5rem;
+}
+
+.icon span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1rem;
+    width: 1rem;
+    padding: .8rem;
+    background-color: var(--red-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    position: relative;
+    bottom: 4rem;
+    left: 2.5rem;
+}
+
+.discord-icon {
+    color: var(--primary-color);
+}
+
+.messanger-icon{
+    color: var(--blue-color);
+}
+
+.avatar {
+    height: 6em;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 50%;
+}
+
+.avatar-xl {
+    height: 4em;
+    width: 4em;
+}
+
+.avatar-lg {
+    height: 3em;
+    width: 3em;
+}
+
+.avatar-std {
+    height: 2em;
+    width: 2em;
+}
+
+.status-presence {
+    position: relative;
+    font-size: 6rem;
+    bottom: 2px;
+    right: 1.3rem;
+}
+
+.online {
+    color: var(--green-color);
+}
+
+.offline {
+    color: var(--red-color);
+}
+.dnd {
+    color: var(--gray-color);
+}
