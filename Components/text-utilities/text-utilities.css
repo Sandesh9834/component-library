@@ -1,0 +1,40 @@
+.headings-container ,.content-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 2px solid var(--primary-color);
+      padding: 2rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      gap: 1rem;
+  }
+  
+  .headings-container{
+      /* font-size: 2rem; */
+      color: var(--black-color);
+  }
+  
+  .pragraph-container
+  {
+      border: 2px solid var(--primary-color);
+      padding: 2rem;
+      margin: 1rem 0;
+      border-radius: 10px;
+      gap: 1rem;
+  }
+  
+  .align-text-left
+  {
+      text-align: start;
+  }
+  
+  .align-text-center
+  {
+      text-align: center;
+  }
+  
+  .align-text-right
+  {
+      text-align: end;
+  }

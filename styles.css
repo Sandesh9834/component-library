@@ -1,8 +1,23 @@
 h2
 {
-      /* background-color: blue;
-      color: white */
       display: block;
+}
+
+:root
+{
+      --primary-color : #004085;
+      --blue-color : #337ab7;
+      --dark-blue-color: #19375a;
+      --white-color : white;
+      --green-color: #14ac65;
+      --dark-green-color: #08683b;
+      --red-color: rgb(238, 28, 28);
+      --dark-red-color: #b31515;
+      --gray-color: #6c757d;
+      --light-gray-color: #8f9ba5;
+      --dark-yellow-color: #ffc107;
+      --yellow-color: #ffc107c2;
+      --black-color: black;
 }
 
 .sidenav 
