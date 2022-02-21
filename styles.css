@@ -5,6 +5,12 @@ h2
       display: block;
 }
 
+:root
+{
+      --primary-color : #004085
+}
+
+
 .sidenav 
 {
       height: 100%;
