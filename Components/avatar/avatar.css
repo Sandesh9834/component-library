@@ -1,0 +1,82 @@
+.VariantContainer{
+      margin-top: 25px;
+      border: 3px solid var(--primary-color);
+      width: 900px;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 25px;
+      justify-content: center;
+      align-items: center;  
+      text-align: center; 
+  }
+  
+  .avatar{
+      vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .large{
+      width: 140px;
+      height: 140px;
+  }
+  
+  .medium{
+      width: 100px;
+    height: 100px;
+  
+  }
+  
+  .small{
+      width: 60px;
+      height: 60px;
+  }
+  
+  
+  .avatar-square{
+      width: 140px;
+      height: 140px;
+  }
+  
+  .square-large{
+      width: 140px;
+      height: 140px;
+  
+  }
+  
+  .square-medium{
+      width: 100px;
+      height: 100px;
+  }
+  
+  .square-small{
+      width: 60px;
+      height: 60px;
+  }
+
+
+  .oval {
+      width: 160px;
+      height: 80px;
+      border-radius: 50%;
+    }
+
+    .oval-large
+    {
+      width: 140px;
+      height: 180px; 
+    }
+
+    .oval-medium
+    {
+      width: 90px;
+      height: 120px; 
+    }
+    .oval-small
+    {
+      width: 50px;
+      height: 70px; 
+    }
