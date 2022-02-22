@@ -1,0 +1,120 @@
+.card{
+      width: 17rem;
+      box-shadow: 3px 1px 6px 1px rgb(0 0 0 / 20%);
+      border-radius: .6rem;
+      margin: 2rem 21rem;
+      transition: .2s all ease-in-out;
+   }
+   
+   .card:hover{
+       box-shadow: 3px 1px 10px 1px rgb(0 0 0 / 20%);;
+   }
+   
+   .card img{
+       height: 100%;
+       width: 100%;
+   }
+   
+   .card-content{
+       padding: 7px;
+   }
+   
+   .badge{
+       position: relative;
+       top: 3rem;
+       width: fit-content;
+       padding: 5px;
+       color: var(--white-color);
+   }
+   
+   .item-name{
+       margin-left: 0.5rem;
+       color: var(--primary-color);
+   }
+   
+   .item-description{
+       margin-left: 6px;
+       opacity: .5;
+   }
+   
+   .price{
+       display: flex;
+       gap: 8px;
+       margin-top: 8px;
+       margin-bottom: 8px;
+   }
+   
+   .item-price{
+       margin-left: 8px;
+       font-weight: 600;
+   }
+   
+   .discount{
+       color: var(--green-color);
+       font-weight: 600;
+       
+   }
+   
+   .add-to-cart{
+       display: flex;
+       width: 96%;
+       justify-content: center;
+       height: 2rem;
+       margin-bottom: 1rem;
+       align-items: center;
+       margin-left: 0.35rem;
+       color: var(--white-color);
+       background-color: var(--blue-color);
+       font-size: 1rem;
+       border: none;
+       border-radius: 10px;
+       /* transition: .3s all ease-in-out; */
+       cursor: pointer;
+   }
+   
+   .add-to-cart:hover{
+       background-color: var(--dark-blue-color);
+   }
+   
+   .dismiss-btn{
+       z-index: 1;
+       margin-left: 13rem;
+       font-size: 1.5rem;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .dismiss-btn:hover{
+       background-color: var(--hover-color);
+   }
+   
+   .overlay-img{
+       opacity: .3;
+   }
+   
+   .overlay-text{
+       z-index: 1;
+       position: relative;
+       top: 7rem;
+       left: 4rem;
+       font-size: 1.5rem;
+       font-weight: 500;
+   }
+   
+   .horizontal-card{
+       display: flex;
+       flex-direction: row;
+       width: min-content;
+       padding: 1rem;
+   }
+   
+   .horizontal-card img{
+       height: 200px;
+       width: 250px;
+       margin-top: 1rem;
+   }
+   
+   .horizontal-card .card-content{
+       flex-direction: column;
+   }
