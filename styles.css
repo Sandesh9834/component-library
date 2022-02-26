@@ -18,6 +18,17 @@ h2
       --dark-yellow-color: #ffc107;
       --yellow-color: #ffc107c2;
       --black-color: black;
+      --light-blue-color: #cce5ff;
+      --success-button-color: #155724;
+      --success-color: #9ee2ae;
+      --secondary-color: #383d41;
+      --secondary-btn-color: #e2e3e5b7;
+      --danger-color: #721c24;
+      --danger-light-color: #f8d7da;
+      --warning-color: #856404;
+      --light-warning-color: #fff3cd;
+
+      
 }
 
 .sidenav 
@@ -54,7 +65,7 @@ a.focus:link, a.focus:visited
 
 .main 
 {
-      margin-left: 200px; /* Same as the width of the sidenav */
+      margin-left: 200px;
 }
     
 @media screen and (max-height: 450px) 
